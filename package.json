@@ -1,11 +1,10 @@
 {
-  "name": "nexus-studio",
-  "version": "1.0.0",
+  "name": "nexus",
   "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.14.0",
   "scripts": {
-    "dev": "turbo dev",
-    "build": "turbo build",
-    "test": "turbo test",
-    "lint": "turbo lint"
+    "dev": "pnpm --filter @nexus/web dev",
+    "build": "pnpm --filter @nexus/web build"
   }
 }
